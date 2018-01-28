@@ -11,17 +11,17 @@
 // (This is the original behaviour of ProjectScaffold prior to multi project support)
 let referenceBinaries = []
 // Web site location for the generated documentation
-let website = "/##ProjectName##"
+let website = "/Sodium.FSharp"
 
-let githubLink = "##GitUrl##/##GitHome##/##GitName##"
+let githubLink = "https://github.com/stijnmoreels/FSharp.Sodium/stijnmoreels/FSharp.Sodium"
 
 // Specify more information about your project
 let info =
-  [ "project-name", "##ProjectName##"
-    "project-author", "##Author##"
-    "project-summary", "##Summary##"
+  [ "project-name", "Sodium.FSharp"
+    "project-author", "Stijn Moreels"
+    "project-summary", "Sodium - Functional Reactive Programming (FRP) library for .NET written in F#."
     "project-github", githubLink
-    "project-nuget", "http://nuget.org/packages/##ProjectName##" ]
+    "project-nuget", "http://nuget.org/packages/FSharp.Sodium" ]
 
 // --------------------------------------------------------------------------------------
 // For typical project, no changes are needed below

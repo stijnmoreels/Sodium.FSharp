@@ -1,11 +1,12 @@
 source https://nuget.org/api/v2
 
 nuget FSharp.Core redirects: force
+nuget SodiumFRP
 
 group Build
   source https://nuget.org/api/v2
   
-  nuget SourceLink.Fake
+  nuget fsharplint.fake
   nuget FAKE
   nuget FSharp.Formatting
 
@@ -14,5 +15,7 @@ group Build
 group Test
   source https://nuget.org/api/v2
   
-  nuget NUnit ~> 2
-  nuget NUnit.Runners ~> 2
+  nuget xunit.runner.visualstudio
+  nuget xunit.runner.console
+  nuget FsCheck.Xunit
+  nuget Unquote

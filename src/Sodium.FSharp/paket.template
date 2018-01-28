@@ -1,0 +1,25 @@
+type project
+title
+    Sodium.FSharp
+owners
+    Stijn Moreels
+authors 
+    Stijn Moreels
+projectUrl
+    https://github.com/stijnmoreels/Sodium.FSharp/stijnmoreels/Sodium.FSharp
+iconUrl
+    https://raw.githubusercontent.com/stijnmoreels/Sodium.FSharp/master/docs/files/img/logo.png
+licenseUrl
+    https://github.com/stijnmoreels/Sodium.FSharp/stijnmoreels/Sodium.FSharp/blob/master/LICENSE.txt
+requireLicenseAcceptance
+    false
+copyright
+    Copyright 2015
+tags
+    frp functionalprogramming fsharp reactive sodium
+summary
+    Sodium - Functional Reactive Programming (FRP) library for .NET written in F#.
+description
+    Sodium - Functional Reactive Programming (FRP) library for .NET written in F#.
+
+

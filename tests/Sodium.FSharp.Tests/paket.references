@@ -1,0 +1,7 @@
+FSharp.Core
+SodiumFRP
+group Test
+xunit.runner.visualstudio
+xunit.runner.console
+FsCheck.Xunit
+Unquote
